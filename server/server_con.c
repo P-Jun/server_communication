@@ -20,7 +20,7 @@ int main(int argc, char **argv)
     struct sockaddr_in clnt_addr;
     char client_hostname[128], client_port[128];
 
-    int port = #PORT;
+    int port = #;
     
     listenfd = socket(PF_INET, SOCK_STREAM, 0);
     if(listenfd == -1) errhandle("socket() ERR!");
